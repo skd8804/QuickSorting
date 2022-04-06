@@ -8,6 +8,8 @@ fun main() {
 }
 
 class QuickSorting(){
+
+//    Partitioning method is used from this: https://www.youtube.com/watch?v=MZaf_9IZCrc
     fun partition(list: MutableList<Int>, low: Int, high: Int): Int { //low - initial value of first i in list, high - initial value of highest i in list
         var i = low-1  // select index which is 1 lower than lowest in the list eg. -1
         var j = low // 1
