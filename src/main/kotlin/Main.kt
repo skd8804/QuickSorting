@@ -1,5 +1,5 @@
 fun main() {
-    val list = mutableListOf<Int>(7, 2, 1, 8, 6, 3, 5, 4, 5, 7, 9, 6, 54, 567,5, 66, 7, 8)
+    val list = mutableListOf<Int>(1,2,3)
 
 
     val quick = QuickSorting()
